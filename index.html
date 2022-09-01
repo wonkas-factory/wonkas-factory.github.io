@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Can you hear the poop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<h1 style="font-size:40px;">Can you hear the poop?</h1>
+
+<br>
+Track 1: 
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music11');">
+  Sample1
+</button>
+<audio id="music11" preload="auto">
+  <source src="music11">
+</audio>
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music12');">
+  Sample2
+</button>
+<audio id="music12" preload="auto">
+  <source src="music12">
+</audio>
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music13');">
+  Sample3
+</button>
+<audio id="music13" preload="auto">
+  <source src="music13">
+</audio>
+
+<br>
+Track 2:
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music21');">
+  Sample1
+</button>
+<audio id="music21" preload="auto">
+  <source src="music21">
+</audio>
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music22');">
+  Sample2
+</button>
+<audio id="music22" preload="auto">
+  <source src="music22">
+</audio>
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music23');">
+  Sample3
+</button>
+<audio id="music23" preload="auto">
+  <source src="music23">
+</audio>
+
+<br>
+Track 3:
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music31');">
+  Sample1
+</button>
+<audio id="music31" preload="auto">
+  <source src="music31">
+</audio>
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music32');">
+  Sample2
+</button>
+<audio id="music32" preload="auto">
+  <source src="music32">
+</audio>
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music33');">
+  Sample3
+</button>
+<audio id="music33" preload="auto">
+  <source src="music33">
+</audio>
+
+<br>
+Track 4:
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music41');">
+  Sample1
+</button>
+<audio id="music41" preload="auto">
+  <source src="music41">
+</audio>
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music42');">
+  Sample2
+</button>
+<audio id="music42" preload="auto">
+  <source src="music42">
+</audio>
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music43');">
+  Sample3
+</button>
+<audio id="music43" preload="auto">
+  <source src="music43">
+</audio>
+
+<br>
+Track 5:
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music51');">
+  Sample1
+</button>
+<audio id="music51" preload="auto">
+  <source src="music51">
+</audio>
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music52');">
+  Sample2
+</button>
+<audio id="music52" preload="auto">
+  <source src="music52">
+</audio>
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music53');">
+  Sample3
+</button>
+<audio id="music53" preload="auto">
+  <source src="music53">
+</audio>
+
+<br>
+Track 6:
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music61');">
+  Sample1
+</button>
+<audio id="music61" preload="auto">
+  <source src="music61">
+</audio>
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music62');">
+  Sample2
+</button>
+<audio id="music62" preload="auto">
+  <source src="music62">
+</audio>
+<button id="player" type="button"
+  onclick="javascript:toggleSound('music63');">
+  Sample3
+</button>
+<audio id="music63" preload="auto">
+  <source src="music63">
+</audio>
+
+<script type="text/javascript">
+function toggleSound(element) {
+  var audioElem = document.getElementById(element);
+  if (audioElem.paused)
+    audioElem.play();
+  else
+    audioElem.pause();
+}
+</script>
+
+</body>
+</html>
